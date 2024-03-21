@@ -1,0 +1,176 @@
+img{
+    width :200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 10 px 10px 10 px -3px;
+}
+
+.titre1
+{
+    color:crimson;
+    font-size: 10px;
+    font-weight: 100px;
+}
+
+@media screen and(max-width: 400px)
+{
+    .titre1
+    {
+        color:crimson;
+        font-size: 5px;
+        font-weight: 100px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width:1000px)
+{
+    .titre1
+    {
+        color:blue;
+        font-size: 6px;
+        font-weight: 200px;
+    }
+}
+
+@media screen and(min-width: 1000px)
+{
+    .titre1
+    {
+        color:crimson;
+        font-size: 5px;
+        font-weight: 100px;
+    }
+}
+
+.titre2
+{
+    color:blue;
+    font-size: 12px;
+    font-weight: 200px;
+}
+@media screen and(max-width: 400px)
+{
+    .titre1
+    {
+        color:crimson;
+        font-size: 5px;
+        font-weight: 100px;
+    }
+} 
+@media screen and (min-width: 400px) and (max-width:1000px)
+{
+    .titre2
+    {
+        color:blue;
+        font-size: 6px;
+        font-weight: 200px;
+    }
+}
+@media screen and(min-width: 1000px)
+{
+    .titre1
+    {
+        color:crimson;
+        font-size: 5px;
+        font-weight: 100px;
+    }
+}
+
+
+.titre3{
+    color:darkkhaki;
+    font-size: 1rem;
+    font-weight: 700px;
+}
+
+@media screen and(max-width: 400px)
+{
+    .titre3{
+        font-size: 0.5rem;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width:1000px)
+{
+    .titre3{
+        font-size: 0.5rem;
+    }
+}
+
+@media screen and(min-width: 1000px)
+{
+    .titre1
+    {
+        color:crimson;
+        font-size: 5px;
+        font-weight: 100px;
+    }
+}
+
+.titre4{
+    color:blueviolet;
+    font-size: 1,5rem;
+    font-weight:bold;
+}
+
+@media screen and(max-width: 400px)
+{
+    .titre4{
+        font-size: 0.75rem;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width:1000px)
+{
+    .titre4
+    {
+        color:blue;
+        font-size: 6px;
+        font-weight: 200px;
+    }
+}
+
+@media screen and(min-width: 1000px)
+{
+    .titre1
+    {
+        color:crimson;
+        font-size: 5px;
+        font-weight: 100px;
+    }
+}
+
+.titre5{
+    color:gold;
+    font-size: 1,5rem;
+    font-weight:bold;
+}
+
+@media screen and(max-width: 400px)
+{
+    .titre5{
+        color:gold;
+        font-size: 0.75rem;
+        font-weight:bold;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width:1000px)
+{
+    .titre5
+    {
+        color:blue;
+        font-size: 6px;
+        font-weight: 200px;
+    }
+}
+
+@media screen and(min-width: 1000px)
+{
+    .titre5
+    {
+        color:crimson;
+        font-size: 5px;
+        font-weight: 100px;
+    }
+}
